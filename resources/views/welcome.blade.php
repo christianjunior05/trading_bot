@@ -26,11 +26,11 @@
           />
         </div>
         <div class="flex items-center space-x-5">
-          <button class="text-black px-5 py-2 rounded-full">S'inscrire</button>
+          <button class="text-black px-5 py-2 rounded-full" ><a href="{{route('register')}}">S'inscrire</a> </button>
           <button
             class="bg-white text-indigo-600 px-5 py-2 rounded-full border-2 border-indigot-600 hover:bg-white hover:text-indigo-600 hover:border-indigo-600"
-          >
-            Sign in
+          > <a href="{{route('login')}}"> Se connecter</a>
+        
           </button>
         </div>
       </nav>
